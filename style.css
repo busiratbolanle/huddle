@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open-san';
+    
+}
+header{
+    background-image: url(img/bg-hero-desktop.svg);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    margin: auto;
+    font-size: 20px;
+}
+.header-top{
+    padding-bottom: 50px;
+}
+
+.header-down{
+    display: flex;
+}
+
+.header-left{
+    padding-right: 120px;
+    padding-top: 120px;
+}
+
+.btn1{
+    float: right;
+    text-align: center;
+    border: solid 1px transparent;
+    padding: 10px 50px;
+    border-radius: 50px;
+    color: hsl(192, 100%, 9%);
+    background-color: white;
+}
+
+.btn2{
+    text-align: center;
+    border: solid 1px transparent;
+    padding: 10px 60px;
+    border-radius: 50px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+}
+
+main{
+    margin: auto;
+    padding: 100px 0px;   
+}
+
+
+@media screen and min-width {
+    
+}
+
+
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  /* .fa:hover {
+    opacity: 0.7;
+  } */
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  /* .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } */
+  
+  /* Twitter */
+  /* .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } */ */
+
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+
+### Neutral
+
+- Very Pale Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
+
+### Body, Call-to-actions
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700 */
